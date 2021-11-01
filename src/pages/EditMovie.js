@@ -48,8 +48,8 @@ class EditMovie extends Component {
     }
 
     return (
-      <section className="w-full h-full flex justify-center items-center">
-        <div className="w-2/6 h-3/6 bg-white flex justify-center items-center flex-wrap rounded px-4 py-4">
+      <section className="w-full h-full flex justify-center">
+        <div className="w-2/6 h-3/4 mt-16 bg-white flex justify-center items-center flex-wrap rounded px-4 py-4">
           <MovieForm movie={ movie } onSubmit={ this.handleSubmit } />
         </div>
       </section>

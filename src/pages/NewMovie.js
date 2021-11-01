@@ -23,7 +23,7 @@ class NewMovie extends Component {
       return <Redirect to="/" />;
     }
     return (
-      <div data-testid="new-movie">
+      <div data-testid="new-movie" className="w-full mt-16 flex justify-center items-center">
         <MovieForm onSubmit={ this.handleSubmit } />
       </div>
     );

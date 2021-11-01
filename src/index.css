@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .edit-input {
-  @apply m-4;
+  @apply w-full block mb-4 border-2 rounded px-1 py-1;
 }
 
 .text-area {
-  @apply w-4\/6 h-auto m-4;
+  @apply w-full block h-28 mb-4 border-2 rounded px-1 py-1;
+}
+
+.edit-label {
+  @apply font-semibold;
 }
