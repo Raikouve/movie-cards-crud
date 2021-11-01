@@ -13,7 +13,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://raikouve/github.io/movie-cards-crud",
+  "homepage": "https://raikouve.github.io/movie-cards-crud",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
