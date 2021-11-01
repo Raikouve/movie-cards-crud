@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="h-screen bg-black overflow-x-hidden">
-          <nav className="flex justify-center items-center align-middle text-white text-2xl font-extrabold h-16 bg-red-700"><Link exact to="/">Movie Card Library CRUD</Link></nav>
+          <nav className="flex justify-center items-center align-middle text-white text-2xl font-extrabold h-24 bg-red-700"><Link exact to="/">Movie Card Library CRUD</Link></nav>
           <Switch>
             <Route path="/movies/new" component={ NewMovie } />
             <Route path="/movies/:id/edit" component={ EditMovie } />

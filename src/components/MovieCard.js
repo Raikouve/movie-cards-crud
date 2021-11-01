@@ -8,7 +8,7 @@ class MovieCard extends React.Component {
     const { movie: { id, title, storyline, imagePath, genre, rating } } = this.props;
     return (
       <div data-testid="movie-card" className="w-96 bg-white flex flex-col rounded m-4">
-        <img className="rounded-t h-64" src={ imagePath } alt={ title } />
+        <img className="rounded-t h-56" src={ imagePath } alt={ title } />
         <div className="px-4 py-4">
           <p className="mb-4 font-bold">{title}</p>
           <p className="mb-8">{storyline}</p>
