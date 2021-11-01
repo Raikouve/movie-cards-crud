@@ -45,15 +45,15 @@ class MovieDetails extends Component {
               <p className="m-2 font-medium">{ `Genre: ${genre}` }</p>
               <p className="m-2 font-medium">{ `Rating: ${rating}` }</p>
               <div className="flex justify-around mt-8 mb-4">
-                <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300" to={ `/movies/${id}/edit` }>EDITAR</Link>
+                <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300" to={ `movie-cards-crud/movies/${id}/edit` }>EDITAR</Link>
                 <Link
                   className="text-red-700 font-medium hover:text-red-600 transition duration-300"
-                  to="/"
+                  to="/movie-cards-crud"
                   onClick={ deleteMovie }
                 >
                   DELETAR
                 </Link>
-                <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300" to="/">VOLTAR</Link>
+                <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300" to="/movie-cards-crud">VOLTAR</Link>
               </div>
             </div>
           </div>

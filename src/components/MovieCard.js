@@ -24,7 +24,7 @@ class MovieCard extends React.Component {
               {rating}
             </span>
           </p>
-        <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300 ease-in-out" to={ `movies/${id}` }>MOVIE DETAILS</Link>
+        <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300 ease-in-out" to={ `movie-cards-crud/movies/${id}` }>MOVIE DETAILS</Link>
         </div>
       </div>
     );

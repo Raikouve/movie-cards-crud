@@ -20,7 +20,7 @@ class NewMovie extends Component {
   render() {
     const { shouldRedirect } = this.state;
     if (shouldRedirect) {
-      return <Redirect to="/" />;
+      return <Redirect to="/movie-cards-crud" />;
     }
     return (
       <div data-testid="new-movie" className="w-full mt-16 flex justify-center items-center">
