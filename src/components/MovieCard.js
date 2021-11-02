@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 class MovieCard extends React.Component {
   render() {
-    const { movie: { id, title, storyline, imagePath, genre, rating } } = this.props;
+    const { movie: { id, title, storyline, imagePath, genre, rating }, } = this.props;
     return (
       <div data-testid="movie-card" className="w-96 bg-white flex flex-col rounded m-4">
         <img className="rounded-t h-56" src={ imagePath } alt={ title } />
@@ -24,7 +24,7 @@ class MovieCard extends React.Component {
               {rating}
             </span>
           </p>
-        <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300 ease-in-out" to={ `movie-cards-crud/movies/${id}` }>MOVIE DETAILS</Link>
+        <Link className="text-red-700 font-medium hover:text-red-600 transition duration-300 ease-in-out" to={ `/movies/${id}` }>MOVIE DETAILS</Link>
         </div>
       </div>
     );
