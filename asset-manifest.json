@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/movie-cards-crud/static/css/main.6bc9bab5.chunk.css",
-    "main.js": "/movie-cards-crud/static/js/main.c9e4a4f2.chunk.js",
-    "main.js.map": "/movie-cards-crud/static/js/main.c9e4a4f2.chunk.js.map",
+    "main.js": "/movie-cards-crud/static/js/main.a5122800.chunk.js",
+    "main.js.map": "/movie-cards-crud/static/js/main.a5122800.chunk.js.map",
     "runtime-main.js": "/movie-cards-crud/static/js/runtime-main.af0a24f6.js",
     "runtime-main.js.map": "/movie-cards-crud/static/js/runtime-main.af0a24f6.js.map",
     "static/js/2.14fb91a1.chunk.js": "/movie-cards-crud/static/js/2.14fb91a1.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.af0a24f6.js",
     "static/js/2.14fb91a1.chunk.js",
     "static/css/main.6bc9bab5.chunk.css",
-    "static/js/main.c9e4a4f2.chunk.js"
+    "static/js/main.a5122800.chunk.js"
   ]
 }
