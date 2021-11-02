@@ -39,7 +39,7 @@ class MovieList extends Component {
           }
         </div>
         <div className="w-full flex justify-center items-center text-white" >
-          <Link className="bg-red-700 px-2 py-2 rounded hover:bg-red-600 transition duration-200 ease-linear" to="movie-cards-crud/movies/new">ADICIONAR CARTÃO</Link>
+          <Link className="bg-red-700 px-2 py-2 rounded hover:bg-red-600 transition duration-200 ease-linear" to="/movies/new">ADICIONAR CARTÃO</Link>
         </div>
       </section>
     );

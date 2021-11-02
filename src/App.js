@@ -15,7 +15,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/movies/new" component={ NewMovie } />
             <Route exact path="/movies/:id/edit" component={ EditMovie } />
-            <Route exact path="/movieslibrary" component={ MovieList } />
+            <Route exact path="/movie-cards-crud" component={ MovieList } />
             <Route exact path="/movies/:id" component={ MovieDetails } />
             <Route exact component={ NotFound } />
           </Switch>
